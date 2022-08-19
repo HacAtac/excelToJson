@@ -1,0 +1,23 @@
+{
+  "name": "exceltojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HacAtac/excelToJson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HacAtac/excelToJson/issues"
+  },
+  "homepage": "https://github.com/HacAtac/excelToJson#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
