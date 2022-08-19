@@ -1,0 +1,66 @@
+[
+    {
+        "Segment": "Government",
+        "Country": "Canada",
+        "Product": "Carretera",
+        "Discount Band": "None",
+        "Units Sold": 1618.5,
+        "Manufacturing P": "US$  3.00"
+    },
+    {
+        "Segment": "Government",
+        "Country": "Germany",
+        "Product": "Carretera",
+        "Discount Band": "None",
+        "Units Sold": 1321,
+        "Manufacturing P": "US$  3.00"
+    },
+    {
+        "Segment": "Midmarket",
+        "Country": "France",
+        "Product": "Carretera",
+        "Discount Band": "None",
+        "Units Sold": 2178,
+        "Manufacturing P": "US$  3.00"
+    },
+    {
+        "Segment": "Midmarket",
+        "Country": "Germany",
+        "Product": "Carretera",
+        "Discount Band": "None",
+        "Units Sold": 888,
+        "Manufacturing P": "US$  3.00"
+    },
+    {
+        "Segment": "Midmarket",
+        "Country": "Mexico",
+        "Product": "Carretera",
+        "Discount Band": "None",
+        "Units Sold": 2470,
+        "Manufacturing P": "US$  3.00"
+    },
+    {
+        "Segment": "Government",
+        "Country": "Germany",
+        "Product": "Carretera",
+        "Discount Band": "None",
+        "Units Sold": 1513,
+        "Manufacturing P": "US$  3.00"
+    },
+    {
+        "Segment": "Midmarket",
+        "Country": "Germany",
+        "Product": "Montana",
+        "Discount Band": "None",
+        "Units Sold": 921,
+        "Manufacturing P": "US$  3.00"
+    },
+    {
+        "Segment": "Channel Partners",
+        "Country": "Canada",
+        "Product": "Montana",
+        "Discount Band": "None",
+        "Units Sold": 2518,
+        "Manufacturing P": "US$  3.00"
+    }
+]

@@ -1,4 +1,5 @@
 var XLSX = require("xlsx");
+var FS = require("fs");
 var workbook = XLSX.readFile("Data.xlsx");
 var sheet_name_list = workbook.SheetNames;
 console.log(sheet_name_list); // getting as Sheet1
@@ -36,4 +37,6 @@ sheet_name_list.forEach(function (y) {
   data.shift();
   data.shift();
   console.log(data);
+
+  FS.writeFileSync("data/" + y + ".json", JSON.stringify(data, null, 4));
 });
