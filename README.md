@@ -4,7 +4,7 @@
 
 ## Description
 
-    Greetings, this is a nice and simple application that will take your excel spreadsheet and convert it to a JSON object so that you can use it in your applications, this will save you loads of time so that if the spreadsheets are large, you don't haft to enter each one into your DB.
+    Greetings, this is a nice and simple application that will take your excel spreadsheet and convert it to a JSON object so that you can use it in your applications, this will save you loads of time so that if the spreadsheets are large, you don't haft to enter each one into your DB. This is a great example of how to use the xlsx package to convert any excel spreadsheet into a JSON data object.
 
 ## Table of contents
 
@@ -38,3 +38,4 @@
 Can reach me at following info:
 [Github Link](https://github.com/https://github.com/HacAtac/excelToJson)
 [Email Adress] jhackworth00@outlook.com
+
