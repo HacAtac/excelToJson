@@ -7,7 +7,7 @@ console.log(sheet_name_list); // getting as Sheet1
 sheet_name_list.forEach(function (y) {
   let worksheet = workbook.Sheets[y];
   //getting the complete sheet
-  console.log(worksheet);
+  //console.log("worksheet", worksheet);
 
   let headers = {};
   let data = [];
@@ -15,13 +15,13 @@ sheet_name_list.forEach(function (y) {
     if (z[0] === "!") continue;
     //parse out the column, row, and value
     let col = z.substring(0, 1);
-    console.log(col);
+    //console.log("col", col);
 
     let row = parseInt(z.substring(1));
-    console.log(row);
+    //console.log("row", row);
 
     let value = worksheet[z].v;
-    console.log(value);
+    //console.log("value", value);
 
     //store header names
     if (row == 1) {
@@ -36,7 +36,7 @@ sheet_name_list.forEach(function (y) {
   //drop those first two rows which are empty
   data.shift();
   data.shift();
-  console.log(data);
+  //console.log("data", data);
 
   FS.writeFileSync("data/" + y + ".json", JSON.stringify(data, null, 4));
 });
